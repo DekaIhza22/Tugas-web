@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portofolio Pertanian</title>
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
         }
 
         header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             background-color: #7DBB5A;
             color: #fff;
-            text-align: center;
+            text-align: left;
             padding: 20px;
+        }
+
+        .Navbar a{
+            text-decoration: none;
+            color: white;
         }
 
         .container {
@@ -57,49 +66,62 @@
             padding: 10px;
         }
     </style>
+<script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Portofolio Pertanian</h1>
+        <h1>Portofolio</h1>
+        <div class="Navbar">
+            <a href="#profile">Profile</a>
+            <a href="#about">About</a>
+            <a href="#Projek">Projek</a>
+            <a href="#footer">Contact Me</a>
+        </div>
     </header>
 
     <div class="container">
-        <section class="profile">
-            <img src="foto saya.jpg" alt="Foto Anda">
-            <h2>Deka Ihza Maulana</h2>
-            <p>Sosial Media: <a href="https://www.instagram.com/deka_i_m/">instagram</a></p>
+        <section id="profile" class="profile">
+            <img src="saya.jpg" alt="Foto Anda">
+            <h2>Hallo! saya Deka Ihza Maulana</h2>
+            <p>Saya adalah Mahasiswa yang ingin menjadi Game developer</p>
+            <P>Selamat datang di portfolio Saya</P>
         </section>
 
-        <section class="about-me">
+        <section id="about" class="about-me">
             <h2>Tentang Saya</h2>
             <p>
-                Saya adalah seorang petani yang berkomitmen untuk mengembangkan pertanian organik. Saya memiliki keahlian dalam budidaya berbagai jenis tanaman dan telah aktif dalam komunitas pertanian selama 5 tahun.
+                Saya adalah seorang Mahasiswa Smester 3 Prody Teknik Informatika, menguasai Html, css, javascript dan Python.<br>
+                Hobi saya Anime, Game, dan Workout.<br>
+                ingin membuat game petualangan yang bisa go internasional dan membanggakan bangsa.
             </p>
         </section>
 
-        <section class="experience">
+        <section id="Projek" class="experience">
+            <br>
             <h2>Resume Pengalaman</h2>
             <p>
-                - 5 tahun pengalaman dalam pertanian organik<br>
-                - Pemenang Penghargaan Pertanian Lokal 2021<br>
-                - Pekerjaan Kontraktor Pertanian di XYZ Farming Co.<br>
-                - Pemimpin Proyek Pertanian Berkelanjutan di Wilayah Brebes<br>
+                - SD N TANJUNGSARI 1 (6 Tahun)<br>
+                - SMP N 1 BULAKAMBA (3 Tahun).<br>
+                - SMA N 2 BREBES (3 Tahun)<br>
                 - Seminar "Unlocking The Future: Embracing The Digital Revolution
-                For A Better Tomorrow" 
+                For A Better Tomorrow"<br>
+                - Peserta Lomba Story Telling Tingkat SD<br>
+                - Peserta Lomba Story Telling Tingkat SMP<br>
             </p>
         </section>
 
         <section class="work-samples">
             <h2>Contoh Pekerjaan</h2>
-            <a href="https://example.com/project1">Proyek 1: Budidaya Tomat Organik</a>
-            <a href="https://example.com/project2">Proyek 2: Padi Sawah Tanpa Pestisida</a>
-            <a href="https://example.com/project3">Proyek 3: Penerapan Irigasi Cerdas</a>
-            <a href="RESUME SEMINAR.docx">proyek 4: Resume Seminar</a>
+            <a href="RESUME SEMINAR.docx">Proyek 1: Resume Seminar</a>
         </section>
     </div>
-
-    <footer>
-        &copy; 2023 Portofolio Pertanian
+<br>
+    <footer id="footer">
+        <div>
+            <a id="profile-link" href="https://www.instagram.com/deka_i_m/" target="_blank"><img src="./ig.png" width="150px"></a>
+            <p>Contact Me On Instagram</p>
+        </div>
+        &copy; 2023 Portofolio
     </footer>
 </body>
 </html>
