@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pertanian</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #afe348;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #0c9440;
+            color: #f1eded;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .Navbar a{
+            text-decoration: none;
+            color: rgb(228, 228, 228);
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .Home {
+            text-align: center;
+        }
+
+        .Kontent {
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(30, 30, 172);
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .farm-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(223, 233, 223);font-size: 30px;
+        text-align: center;">Bijul Farm</h1>
+        <div class="Navbar">
+            <a href="#home">Home</a>
+            <a href="#Content">Content</a>
+            <a href="#about">About</a>
+        </div>  
+    </header>
+    <section id="home">
+        <h1>HOME</h1>
+    <p>Kami adalah sebuah web pertanian yang berkomitmen untuk menyediakan informasi seputar pertanian.
+        Kami memiliki berbagai riset dan sumber terpecaya mengenai macam-macam jenis pertanian terutama pertanian modern.</p>
+        <section id="Content">
+            <h1>CONTENT</h1>
+            <h2>Berikut adalah Beberapa Tips Bertani Jagung Ala Pertanian Modern</h2>
+    <img src="./jagung.jpg" alt="Foto jagung" style="width: 750px;height: 450px;">
+    <p>1. Pemilihan Varietas yang Tepat:</p>
+    <ul>
+        <li>Pilih varietas jagung yang sesuai dengan kondisi pertanian Anda, seperti iklim, jenis tanah, dan musim tumbuh.</li>
+        <li>Pertimbangkan varietas yang memiliki ketahanan terhadap hama dan penyakit tertentu.</li>
+    </ul>
+    <p>2. Pertimbangkan Sistem Tanam Terbaik:</p>
+    <ul>
+        <li>Pertimbangkan teknik tanam yang modern seperti tanam langsung atau sistem tanam jajar legowo untuk meningkatkan efisiensi penggunaan lahan.</li>
+        <li>Gunakan mesin tanam yang sesuai untuk mengatur jarak tanam yang konsisten.</li>
+    </ul>
+    <p>3. Pemberian Pupuk yang Tepat:</p>
+    <ul>
+        <li>Lakukan uji tanah untuk menentukan kebutuhan nutrisi tanaman.</li>
+        <li>Terapkan pupuk sesuai dengan rekomendasi hasil uji tanah dan siklus pertumbuhan tanaman.</li>
+        <li>Pertimbangkan penggunaan pupuk alami dan organik untuk meningkatkan kesuburan tanah.</li>
+    </ul>
+    <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        th {
+            background-color: #7DBB5A;
+            color: #fff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #E8E8E8;
+        }
+
+        tr:nth-child(even) {
+            background-color: #F5F5F5;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nama Tanaman</th>
+            <th>Jenis</th>
+            <th>Jumlah</th>
+            <th colspan="2">Penanaman</th>
+            <th colspan="2">Pemanenan</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Padi</td>
+            <td>Padi Sawah</td>
+            <td>500</td>
+            <td>Musim Hujan</td>
+            <td>Musim Kemarau</td>
+            <td>Musim Hujan</td>
+            <td>Musim Kemarau</td>
+        </tr>
+        <tr>
+            <td>Padi Ladang</td>
+            <td>300</td>
+            <td>Musim Kemarau</td>
+            <td>Musim Hujan</td>
+            <td>Musim Kemarau</td>
+            <td>Musim Hujan</td>
+        </tr>
+        <tr>
+            <td>Tomat</td>
+            <td>Buah</td>
+            <td>150</td>
+            <td>Musim Panas</td>
+            <td>-</td>
+            <td>Musim Panas</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Kentang</td>
+            <td>Akar</td>
+            <td>200</td>
+            <td>Musim Gugur</td>
+            <td>Musim Semi</td>
+            <td>Musim Gugur</td>
+            <td>Musim Semi</td>
+        </tr>
+        <tr>
+            <td>Jagung</td>
+            <td>Biji-bijian</td>
+            <td>250</td>
+            <td>Musim Panas</td>
+            <td>-</td>
+            <td>Musim Panas</td>
+            <td>-</td>
+        </tr>
+    </table>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pertanian</title>
+</head>
+<body>
+    <h2>Formulir Informasi Pertanian</h2>
+    <form action="proses.php" method="post">
+        <label for="namaTanaman">Nama Tanaman:</label>
+        <input type="text" id="namaTanaman" name="namaTanaman" placeholder="Contoh: Padi" required><br><br>
+
+        <label for="jenisTanaman">Jenis Tanaman:</label>
+        <select id="jenisTanaman" name="jenisTanaman" required>
+            <option value="Padi Sawah">Padi Sawah</option>
+            <option value="Padi Ladang">Padi Ladang</option>
+            <option value="Tomat">Tomat</option>
+            <option value="Kentang">Kentang</option>
+            <option value="Jagung">Jagung</option>
+        </select><br><br>
+
+        <label for="jumlahTanaman">Jumlah Tanaman:</label>
+        <input type="number" id="jumlahTanaman" name="jumlahTanaman" required><br><br>
+
+        <label for="musimTanam">Musim Tanam:</label>
+        <input type="radio" id="musimTanam" name="musimTanam" value="Musim Hujan" required> Musim Hujan
+        <input type="radio" id="musimTanam" name="musimTanam" value="Musim Kemarau" required> Musim Kemarau<br><br>
+
+        <label for="metodePemanenan">Metode Pemanenan:</label>
+        <input type="checkbox" id="metodePemanenan" name="metodePemanenan" value="Pemanenan Manual"> Pemanenan Manual
+        <input type="checkbox" id="metodePemanenan" name="metodePemanenan" value="Pemanenan Mesin"> Pemanenan Mesin<br><br>
+
+        <label for="catatan">Catatan Tambahan:</label><br>
+        <textarea id="catatan" name="catatan" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Kirim Data">
+    </form>
+</body>
+</html>
+
+</body>
+</html>
+
+<section id="about">
+    <h1>ABOUT</h1>
+    <h2>Hubungi Kami</h2>
+    <div>
+		<a id="profile-link" href="https://www.instagram.com/deka_i_m/" target="_blank"><img src="ig.png" width="150px"></a>
+		<p>Instagram profile</p>
+	</div>
+    <p>Jika Anda memiliki pertanyaan silakan hubungi kami .</p>
+    <br>
+    <br>
+    
+<footer>
+    <center>
+    &copy; Oleh Bijul Farm
+    </center>
+</footer>
+</body>
+
+</html>
